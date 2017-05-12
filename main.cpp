@@ -1,8 +1,5 @@
-#include <QCoreApplication>
+#pragma once
 
-int main(int argc, char *argv[])
-{
-    QCoreApplication a(argc, argv);
+#include <QImage>
+#include <QRect>
 
-    return a.exec();
-}
