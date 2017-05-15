@@ -1,3 +1,5 @@
+#include <iostream>
+//#include <string>
 #include "ball.h"
 
 Ball::Ball()
@@ -13,7 +15,7 @@ Ball::Ball()
 
 Ball::~Ball()
 {
-    std::cout << ("Ball deleted") << std::end;
+    std::cout << ("Ball deleted") << std::endl;
 }
 
 void Ball::resetState()
@@ -25,7 +27,7 @@ void Ball::autoMove()
 {
     rect.translate(xdir, ydir);
 
-    if (rect.left() = 0) {
+    if (rect.left() == 0) {
         xdir = 1;
     }
 
@@ -38,12 +40,12 @@ void Ball::autoMove()
     }
 }
 
-void Ball::setXDir(int)
+void Ball::setXDir(int x)
 {
     xdir = x;
 }
 
-void Ball::setYDir(int)
+void Ball::setYDir(int y)
 {
     xdir = y;
 }

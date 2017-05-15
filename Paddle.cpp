@@ -1,6 +1,7 @@
+#include <iostream>
 #include "paddle.h"
 
-Paddle::paddle()
+Paddle::Paddle()
 {
     dx = 0;
     image.load("paddle.png");
@@ -10,11 +11,12 @@ Paddle::paddle()
 }
 
 Paddle::~Paddle() {
-    std::cout  ("Paddle deleted") << std::cout;
+
+ std::cout << ("Paddle deleted") << std::endl;
 }
 
-void Paddle::setDx(in x) {
-    dx = x;
+void Paddle::setDx(int x) {
+  dx = x;
 }
 
 void Paddle::move() {

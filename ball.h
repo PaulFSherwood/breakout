@@ -25,9 +25,9 @@ private:
     int ydir;
     QImage image;
     QRect rect;
-    static const in INITIAL_X = 230;
-    static const in INITIAL_Y = 355;
-    static const in RIGHT_EDGE = 300;
+    static const int INITIAL_X = 230;
+    static const int INITIAL_Y = 355;
+    static const int RIGHT_EDGE = 300;
 };
 
 #endif // BALL_H

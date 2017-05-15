@@ -12,9 +12,9 @@ public:
 
 public:
     bool isDestroyed();
-    void setDestroyed(bool);
+    void setDestroyed(bool destr);
     QRect getRect();
-    void setRect(QRect);
+    void setRect(QRect rct);
     QImage & getImage();
 
 private:

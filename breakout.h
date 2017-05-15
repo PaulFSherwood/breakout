@@ -19,7 +19,7 @@ protected:
     void keyPressEvent(QKeyEvent *);
     void keyReleaseEvent(QKeyEvent *);
     void drawObjects(QPainter *);
-    void finishGame(QPainter *, QString);
+    void finishGame(QPainter * painter, QString);
     void moveObjects();
 
     void startGame();

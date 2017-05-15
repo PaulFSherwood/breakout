@@ -19,7 +19,7 @@ bool Brick::isDestroyed()
     return destroyed;
 }
 
-void Brick::setDestroyed(bool)
+void Brick::setDestroyed(bool destr)
 {
     destroyed = destr;
 }
@@ -29,7 +29,7 @@ QRect Brick::getRect()
     return rect;
 }
 
-void Brick::setRect(QRect)
+void Brick::setRect(QRect rct)
 {
     rect = rct;
 }

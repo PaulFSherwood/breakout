@@ -4,20 +4,20 @@
 #include <QImage>
 #include <QRect>
 
-class Paddle
-{
-public:
+class Paddle {
+
+  public:
     Paddle();
     ~Paddle();
 
-public:
+  public:
     void resetState();
     void move();
     void setDx(int);
     QRect getRect();
     QImage & getImage();
 
-private:
+  private:
     QImage image;
     QRect rect;
     int dx;
